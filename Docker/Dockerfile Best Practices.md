@@ -1,0 +1,13 @@
+- [ ] Non root user
+- [ ] Multi-stage build
+- [ ] Distroless image
+- [ ] Credentials
+- [ ] Decrease build context
+	- [ ] add .dockerignore file
+- [ ] Group multiple commands together into one layer
+- [ ] Metadata labels
+- [ ] Linting
+- [ ] port socket and TCP protection
+	- [ ] /var/run/docker.sock should have correct permissions
+- [ ] immutable tags
+- [ ] [--cap-drop flag](https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities) to restrict application capabilities

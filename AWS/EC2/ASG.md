@@ -1,0 +1,30 @@
+#aws #ec2
+## Auto Scaling Group
+- [ ] **Scale out/in** ec2 instances dynamically
+- [ ] Re create terminated ec2 instance
+- [ ] minimum, desire, maximum
+- [ ] **Launch Template**
+	- [ ] AMI + Instance Type
+	- [ ] EC2 User Data
+	- [ ] EBS Volume
+	- [ ] SG
+	- [ ] SSH key pair
+	- [ ] IAM role
+	- [ ] Network + subnet
+	- [ ] LB information
+- [ ] Scaling policy
+	- [ ] **Target Tracking** Scaling
+		- [ ] e.g: Average ASG CPU should stay around 40%
+	- [ ] **Simple / Step** Scaling
+		- [ ] e.g: When cloudwatch alarm is triggered (CPU >70%), then add 2 units
+	- [ ] **Scheduled** Actions
+		- [ ] Increase mic capacity to 10 at 5pm on fridays
+	- [ ] **Predictive** Scaling
+		- [ ] Based on historical data forecast load and schedule scaling ahead
+- [ ] Good Metrics to scale on 
+	- [ ] CPUUtilization
+	- [ ] RequestCountPerTarget
+	- [ ] Average Network In/Out
+- [ ] Scaling Cooldown
+	- [ ] after scaling activity there is **cooldown period** (default 300 sec)
+	- [ ] During cooldown, ASG will not launch/terminate additional instances (to allow metrics to **stabilize**)
