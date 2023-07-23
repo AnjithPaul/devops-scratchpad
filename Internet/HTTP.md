@@ -1,0 +1,19 @@
+- [ ] 1
+    - [ ] TCP for every request
+- [ ] 1.1
+    - [ ] "keep-alive" -> connection can be reused for more request
+        - [ ] reduced latency
+    - [ ] "pipelining" -> send multiple request before getting response of earlier request
+        - [ ] removed later from most browsers as the response had to be in same order as request and it was difficult to implement
+        - [ ] if earlier responds take too long, the later responds can only go after that
+    - [ ] 2 (in 2015)
+        - [ ] "HTTP streams" -> multiple streams of request can be send in a single TCP conenction
+            - [ ] unlike 1.1 pipelining, each request is independent of each other and doesn't need to be in same order
+        - [ ] "push capability" -> server can push new content when available without client having to pull it
+    - [ ] 3 (2022)
+        - [ ] QUIC (based on UDP) instead of TCP
+            - [ ] streams share same connection so no additional handshakes required
+            - [ ] streams are independent
+        - [ ] easier network change (4g -> wifi -> 3g -> etc.)
+            - [ ] introduces "connection ID" which allows connections to move between IPs and networks
+        - [ ] already 25% websites are on HTTP3
