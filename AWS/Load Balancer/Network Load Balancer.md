@@ -12,5 +12,5 @@
 	- [ ] Private **IP**s
 	- [ ] **ALB**
 		- [ ] NLB + ALB -> e.g: NLB for fixed IP and ALB for path based routing
-- [ ] Helath check support **TCP, HTTP, and HTTPS**
+- [ ] Health check support **TCP, HTTP, and HTTPS**
 - [ ] Security group of target group should allow **HTTP from 0.0.0.0/0** as it'll look like traffic is coming from outside instead of NLB's IP
