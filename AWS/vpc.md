@@ -1,0 +1,1 @@
+- [ ] VPC peering which logically merges two VPCs and exposes all the services across the VPCs, the VPC endpoint service option creates an AWS PrivateLink route to access only the RDS service to other Amazon RDS-hosted VPCs. However, the VPC endpoint service talks to only the Network Load Balancer service in the RDS VPC.
