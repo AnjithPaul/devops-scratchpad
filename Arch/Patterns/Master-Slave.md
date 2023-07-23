@@ -1,0 +1,15 @@
+#devOps #architecture #architecturePatterns 
+- [ ] Components
+	- [ ] **Master**
+		- [ ] Distrubutes the work among identical slave components and computes a final result from the results which the slaves return
+	- [ ] **Slave**
+		- [ ] compute and return result to master
+- [ ] Advantages
+	- [ ] Accuracy - The execution of a service is delegated to different slaves, with diffrenet implementations.
+- [ ] Disadvantages
+	- [ ] Slaves are **isolated**, no shared state
+	- [ ] **latency** in master-slave communication 
+	- [ ] can only be applied to a problem **that can be decomposed**
+- [ ] Usage
+	- [ ] In database replication
+		- [ ] master database is authoritative source andslave are synched to it.

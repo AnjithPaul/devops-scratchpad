@@ -1,0 +1,6 @@
+- [ ] Architecture
+	- [ ] Monolith -> Service Oriented Architecture -> **Microservices**
+- [ ] Infrastructure
+	- [ ] Physical Servers -> Virtual Machine -> **Cloud**
+- [ ] Delivery
+	- [ ] Waterfall -> Agile -> **DevOps**

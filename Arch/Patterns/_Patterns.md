@@ -1,0 +1,15 @@
+
+- [[Layered]]
+- [[Client-Server]]
+- [[Event Driven]]
+- [[Microkernel]]
+- [[Microservice]]
+- [[Master-Slave]]
+- [[Pipe-Filter]]
+- [[Broker]]
+- [[Peer-to-Peer]]
+- [[Event-Bus]]
+- [[Model-View-Controller]]
+- [[Blackboard]]
+
+![[Pasted image 20230304142403.png]]

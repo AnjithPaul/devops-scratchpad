@@ -1,0 +1,21 @@
+#devOps #architecture #architecturePatterns 
+
+- [ ] Peer can change it's role between **client and server** **dynamically**
+- [ ] Advantages
+	- [ ] Supports **decentralized** computing
+	- [ ] Highly robust in the **faliure** of any given node
+	- [ ] Highly scalable in terms of resources and computing power
+- [ ] Disadvantages
+	- [ ] **Security** is difficult to be guaranteed
+	- [ ] **Performance** depends on the number of nodes
+- [ ] Usage
+	- [ ] File sharing networks
+		- [ ] **Torrent**
+		- [ ] Gnutella
+		- [ ] G2
+	- [ ] Multimedia protocols
+		- [ ] P2PTV
+		- [ ] PDTP
+	- [ ] Cryptocurrency stuff
+		- [ ] Bitcoin
+		- [ ] Blockchain

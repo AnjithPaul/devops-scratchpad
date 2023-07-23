@@ -1,0 +1,10 @@
+- [ ] Create website files
+- [ ] Buy a domain
+- [ ] get a [[Web Hosting Provider]]
+	- [ ] shared hosting
+	- [ ] cloud 
+- [ ] Upload files to hosting provider
+- [ ] binding
+	- [ ] update the hosting provider name server details in domain admin page
+	- [ ] or
+	- [ ] Add CNAME, A records in domain admin page to direct traffic to hosting provider (example.github.io)

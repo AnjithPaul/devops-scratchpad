@@ -1,0 +1,12 @@
+#devOps  #architecture #architecturePatterns 
+- [ ] useful for problems for which no deterministic solution strategies are known.
+- [ ] Components
+	- [ ] **Blackboard**
+		- [ ] a structured global **memory** containing objects from the solution space
+	- [ ] **Knowledge source**
+		- [ ] Specialized **modules** with their own representation
+	- [ ] **Control component**
+		- [ ] Selects, configures and **executes** modules
+- [ ] Usage
+	- [ ] Speech recognition
+	- [ ] Image recognition
