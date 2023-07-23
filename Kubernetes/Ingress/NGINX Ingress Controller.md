@@ -1,0 +1,4 @@
+- [ ] ingress controller 
+    - [ ] proxy that acts as a gateway
+    - [ ] controller listens to ingress objects and modify nginx.conf file
+- [ ] https://aws.amazon.com/blogs/containers/a-deeper-look-at-ingress-sharing-and-target-group-binding-in-aws-load-balancer-controller/
